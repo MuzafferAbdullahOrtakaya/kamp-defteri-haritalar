@@ -1,0 +1,39 @@
+name: Hayvan rehberi medyası
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'uretim/fauna/**'
+      - '.github/workflows/medya.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  medya:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Araçlar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zip
+          pip install -q pillow numpy
+      - name: Fotoğraf ve sesleri indir, küçült
+        working-directory: uretim/fauna
+        run: |
+          mkdir -p raw out/img out/snd
+          for i in 1 2 3; do python build_media.py && break; echo "yeniden deneniyor"; sleep 60; done
+          ls out/img | wc -l; ls out/snd | wc -l
+          cp credits.json out/
+          cd out && zip -qr ../hayvanlar_medya.zip .
+      - name: Sürüm sayfasına yükle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view medya || gh release create medya --title "Hayvan rehberi medyası" --notes "Fotoğraf ve sesler Wikimedia Commons'tan; her dosyanın yazarı ve lisansı credits.json içinde."
+          gh release upload medya uretim/fauna/hayvanlar_medya.zip --clobber
