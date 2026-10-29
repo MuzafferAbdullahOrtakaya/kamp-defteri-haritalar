@@ -58,13 +58,24 @@ jobs:
           export PROTOMAPS="https://build.protomaps.com/$(curl -s https://build-metadata.protomaps.dev/builds.json | python3 -c 'import json,sys;print(json.load(sys.stdin)[-1]["key"])')"
           echo "Kaynak: $PROTOMAPS"
           python3 grup.py ${{ matrix.grup }} 8 "${{ github.event.inputs.iller }}" > liste.tsv
+          hata=0
           while IFS=$'\t' read -r id ad bbox; do
             echo "== $ad"
-            python3 build_pack.py "$id" "$ad" "$bbox" out
-            cp "out/$id/info.json" "out/$id/${id}_info.json"
-            gh release upload "$SURUM" out/$id/${id}_harita.pmtiles out/$id/${id}_egri.pmtiles out/$id/${id}_golge.pmtiles out/$id/${id}_dem.pmtiles out/$id/${id}_info.json --clobber
+            ok=0
+            for deneme in 1 2 3; do
+              rm -rf "out/$id"
+              if python3 build_pack.py "$id" "$ad" "$bbox" out; then ok=1; break; fi
+              echo "  $ad: deneme $deneme başarısız, bekleniyor"; sleep 30
+            done
+            if [ "$ok" = 1 ]; then
+              cp "out/$id/info.json" "out/$id/${id}_info.json"
+              gh release upload "$SURUM" out/$id/${id}_harita.pmtiles out/$id/${id}_egri.pmtiles out/$id/${id}_golge.pmtiles out/$id/${id}_dem.pmtiles out/$id/${id}_info.json --clobber || hata=1
+            else
+              echo "::warning::$ad üretilemedi"; hata=1
+            fi
             rm -rf "out/$id"
           done < liste.tsv
+          exit $hata
 
   katalog:
     needs: uret
