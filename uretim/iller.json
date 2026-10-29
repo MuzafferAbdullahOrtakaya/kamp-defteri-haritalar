@@ -1,0 +1,893 @@
+[
+{
+"id": "adana",
+"name": "Adana",
+"plate": 1,
+"bbox": [
+34.77,
+36.521,
+36.526,
+38.495
+]
+},
+{
+"id": "adiyaman",
+"name": "Adıyaman",
+"plate": 2,
+"bbox": [
+37.402,
+37.392,
+39.276,
+38.248
+]
+},
+{
+"id": "afyonkarahisar",
+"name": "Afyonkarahisar",
+"plate": 3,
+"bbox": [
+29.644,
+37.739,
+31.744,
+39.302
+]
+},
+{
+"id": "agri",
+"name": "Ağrı",
+"plate": 4,
+"bbox": [
+42.252,
+38.982,
+44.478,
+40.009
+]
+},
+{
+"id": "amasya",
+"name": "Amasya",
+"plate": 5,
+"bbox": [
+35.011,
+40.169,
+36.514,
+41.107
+]
+},
+{
+"id": "ankara",
+"name": "Ankara",
+"plate": 6,
+"bbox": [
+30.844,
+38.624,
+33.957,
+40.728
+]
+},
+{
+"id": "antalya",
+"name": "Antalya",
+"plate": 7,
+"bbox": [
+29.241,
+36.074,
+32.672,
+37.448
+]
+},
+{
+"id": "artvin",
+"name": "Artvin",
+"plate": 8,
+"bbox": [
+41.107,
+40.536,
+42.559,
+41.534
+]
+},
+{
+"id": "aydin",
+"name": "Aydın",
+"plate": 9,
+"bbox": [
+26.991,
+37.316,
+28.923,
+38.126
+]
+},
+{
+"id": "balikesir",
+"name": "Balıkesir",
+"plate": 10,
+"bbox": [
+26.589,
+39.03,
+28.987,
+40.683
+]
+},
+{
+"id": "bilecik",
+"name": "Bilecik",
+"plate": 11,
+"bbox": [
+29.642,
+39.588,
+30.759,
+40.554
+]
+},
+{
+"id": "bingol",
+"name": "Bingöl",
+"plate": 12,
+"bbox": [
+39.995,
+38.458,
+41.297,
+39.601
+]
+},
+{
+"id": "bitlis",
+"name": "Bitlis",
+"plate": 13,
+"bbox": [
+41.511,
+37.924,
+43.181,
+39.124
+]
+},
+{
+"id": "bolu",
+"name": "Bolu",
+"plate": 14,
+"bbox": [
+30.575,
+40.123,
+32.55,
+41.062
+]
+},
+{
+"id": "burdur",
+"name": "Burdur",
+"plate": 15,
+"bbox": [
+29.37,
+36.894,
+30.955,
+37.866
+]
+},
+{
+"id": "bursa",
+"name": "Bursa",
+"plate": 16,
+"bbox": [
+28.079,
+39.532,
+29.961,
+40.635
+]
+},
+{
+"id": "canakkale",
+"name": "Çanakkale",
+"plate": 17,
+"bbox": [
+25.643,
+39.439,
+27.597,
+40.746
+]
+},
+{
+"id": "cankiri",
+"name": "Çankırı",
+"plate": 18,
+"bbox": [
+32.487,
+40.246,
+34.17,
+41.124
+]
+},
+{
+"id": "corum",
+"name": "Çorum",
+"plate": 19,
+"bbox": [
+33.944,
+39.888,
+35.478,
+41.331
+]
+},
+{
+"id": "denizli",
+"name": "Denizli",
+"plate": 20,
+"bbox": [
+28.543,
+36.892,
+30.061,
+38.47
+]
+},
+{
+"id": "diyarbakir",
+"name": "Diyarbakır",
+"plate": 21,
+"bbox": [
+39.095,
+37.356,
+41.446,
+38.759
+]
+},
+{
+"id": "edirne",
+"name": "Edirne",
+"plate": 22,
+"bbox": [
+26.013,
+40.579,
+26.926,
+42.003
+]
+},
+{
+"id": "elazig",
+"name": "Elazığ",
+"plate": 23,
+"bbox": [
+38.329,
+38.306,
+40.412,
+39.249
+]
+},
+{
+"id": "erzincan",
+"name": "Erzincan",
+"plate": 24,
+"bbox": [
+38.324,
+39.003,
+40.7,
+40.093
+]
+},
+{
+"id": "erzurum",
+"name": "Erzurum",
+"plate": 25,
+"bbox": [
+40.222,
+39.149,
+42.584,
+40.945
+]
+},
+{
+"id": "eskisehir",
+"name": "Eskişehir",
+"plate": 26,
+"bbox": [
+30.116,
+39.066,
+32.063,
+40.188
+]
+},
+{
+"id": "gaziantep",
+"name": "Gaziantep",
+"plate": 27,
+"bbox": [
+36.432,
+36.654,
+38.061,
+37.557
+]
+},
+{
+"id": "giresun",
+"name": "Giresun",
+"plate": 28,
+"bbox": [
+38.043,
+40.033,
+39.168,
+41.092
+]
+},
+{
+"id": "gumushane",
+"name": "Gümüşhane",
+"plate": 29,
+"bbox": [
+38.82,
+39.868,
+39.889,
+40.81
+]
+},
+{
+"id": "hakkari",
+"name": "Hakkari",
+"plate": 30,
+"bbox": [
+43.34,
+36.949,
+44.822,
+37.933
+]
+},
+{
+"id": "hatay",
+"name": "Hatay",
+"plate": 31,
+"bbox": [
+35.767,
+35.8,
+36.69,
+37.04
+]
+},
+{
+"id": "isparta",
+"name": "Isparta",
+"plate": 32,
+"bbox": [
+29.995,
+37.331,
+31.641,
+38.535
+]
+},
+{
+"id": "mersin",
+"name": "Mersin",
+"plate": 33,
+"bbox": [
+32.552,
+36.007,
+35.102,
+37.421
+]
+},
+{
+"id": "istanbul",
+"name": "İstanbul",
+"plate": 34,
+"bbox": [
+28.129,
+40.855,
+29.905,
+41.56
+]
+},
+{
+"id": "izmir",
+"name": "İzmir",
+"plate": 35,
+"bbox": [
+26.213,
+37.868,
+28.582,
+39.484
+]
+},
+{
+"id": "kars",
+"name": "Kars",
+"plate": 36,
+"bbox": [
+42.13,
+39.902,
+43.749,
+41.127
+]
+},
+{
+"id": "kastamonu",
+"name": "Kastamonu",
+"plate": 37,
+"bbox": [
+32.779,
+40.841,
+34.608,
+42.041
+]
+},
+{
+"id": "kayseri",
+"name": "Kayseri",
+"plate": 38,
+"bbox": [
+34.895,
+37.73,
+36.956,
+39.354
+]
+},
+{
+"id": "kirklareli",
+"name": "Kırklareli",
+"plate": 39,
+"bbox": [
+26.76,
+41.245,
+28.223,
+42.118
+]
+},
+{
+"id": "kirsehir",
+"name": "Kırşehir",
+"plate": 40,
+"bbox": [
+33.504,
+38.833,
+34.757,
+39.846
+]
+},
+{
+"id": "kocaeli",
+"name": "Kocaeli",
+"plate": 41,
+"bbox": [
+29.234,
+40.53,
+30.508,
+41.236
+]
+},
+{
+"id": "konya",
+"name": "Konya",
+"plate": 42,
+"bbox": [
+31.234,
+36.653,
+34.532,
+39.242
+]
+},
+{
+"id": "kutahya",
+"name": "Kütahya",
+"plate": 43,
+"bbox": [
+28.638,
+38.687,
+30.462,
+39.943
+]
+},
+{
+"id": "malatya",
+"name": "Malatya",
+"plate": 44,
+"bbox": [
+37.206,
+37.8,
+39.169,
+39.17
+]
+},
+{
+"id": "manisa",
+"name": "Manisa",
+"plate": 45,
+"bbox": [
+27.208,
+38.084,
+29.056,
+39.431
+]
+},
+{
+"id": "kahramanmaras",
+"name": "Kahramanmaraş",
+"plate": 46,
+"bbox": [
+36.2,
+37.213,
+37.802,
+38.645
+]
+},
+{
+"id": "mardin",
+"name": "Mardin",
+"plate": 47,
+"bbox": [
+39.98,
+36.903,
+41.925,
+37.786
+]
+},
+{
+"id": "mugla",
+"name": "Muğla",
+"plate": 48,
+"bbox": [
+27.209,
+36.274,
+29.709,
+37.597
+]
+},
+{
+"id": "mus",
+"name": "Muş",
+"plate": 49,
+"bbox": [
+41.144,
+38.515,
+42.662,
+39.511
+]
+},
+{
+"id": "nevsehir",
+"name": "Nevşehir",
+"plate": 50,
+"bbox": [
+34.186,
+38.328,
+35.095,
+39.424
+]
+},
+{
+"id": "nigde",
+"name": "Niğde",
+"plate": 51,
+"bbox": [
+34.14,
+37.332,
+35.279,
+38.424
+]
+},
+{
+"id": "ordu",
+"name": "Ordu",
+"plate": 52,
+"bbox": [
+36.668,
+40.312,
+38.178,
+41.168
+]
+},
+{
+"id": "rize",
+"name": "Rize",
+"plate": 53,
+"bbox": [
+40.332,
+40.522,
+41.406,
+41.321
+]
+},
+{
+"id": "sakarya",
+"name": "Sakarya",
+"plate": 54,
+"bbox": [
+29.906,
+40.311,
+30.982,
+41.191
+]
+},
+{
+"id": "samsun",
+"name": "Samsun",
+"plate": 55,
+"bbox": [
+34.868,
+40.827,
+37.172,
+41.756
+]
+},
+{
+"id": "siirt",
+"name": "Siirt",
+"plate": 56,
+"bbox": [
+41.393,
+37.606,
+43.049,
+38.247
+]
+},
+{
+"id": "sinop",
+"name": "Sinop",
+"plate": 57,
+"bbox": [
+34.12,
+41.182,
+35.525,
+42.119
+]
+},
+{
+"id": "sivas",
+"name": "Sivas",
+"plate": 58,
+"bbox": [
+35.8,
+38.568,
+38.782,
+40.544
+]
+},
+{
+"id": "tekirdag",
+"name": "Tekirdağ",
+"plate": 59,
+"bbox": [
+26.696,
+40.541,
+28.213,
+41.512
+]
+},
+{
+"id": "tokat",
+"name": "Tokat",
+"plate": 60,
+"bbox": [
+35.49,
+39.904,
+37.655,
+40.93
+]
+},
+{
+"id": "trabzon",
+"name": "Trabzon",
+"plate": 61,
+"bbox": [
+39.097,
+40.49,
+40.509,
+41.132
+]
+},
+{
+"id": "tunceli",
+"name": "Tunceli",
+"plate": 62,
+"bbox": [
+38.697,
+38.743,
+40.575,
+39.604
+]
+},
+{
+"id": "sanliurfa",
+"name": "Şanlıurfa",
+"plate": 63,
+"bbox": [
+37.821,
+36.64,
+40.281,
+38.063
+]
+},
+{
+"id": "usak",
+"name": "Uşak",
+"plate": 64,
+"bbox": [
+28.818,
+38.192,
+29.909,
+38.905
+]
+},
+{
+"id": "van",
+"name": "Van",
+"plate": 65,
+"bbox": [
+42.658,
+37.707,
+44.479,
+39.43
+]
+},
+{
+"id": "yozgat",
+"name": "Yozgat",
+"plate": 66,
+"bbox": [
+34.033,
+38.993,
+36.233,
+40.254
+]
+},
+{
+"id": "zonguldak",
+"name": "Zonguldak",
+"plate": 67,
+"bbox": [
+31.326,
+40.999,
+32.327,
+41.619
+]
+},
+{
+"id": "aksaray",
+"name": "Aksaray",
+"plate": 68,
+"bbox": [
+33.245,
+37.912,
+34.51,
+39.021
+]
+},
+{
+"id": "bayburt",
+"name": "Bayburt",
+"plate": 69,
+"bbox": [
+39.791,
+39.995,
+40.82,
+40.632
+]
+},
+{
+"id": "karaman",
+"name": "Karaman",
+"plate": 70,
+"bbox": [
+32.436,
+36.412,
+34.169,
+37.667
+]
+},
+{
+"id": "kirikkale",
+"name": "Kırıkkale",
+"plate": 71,
+"bbox": [
+33.253,
+39.247,
+34.121,
+40.36
+]
+},
+{
+"id": "batman",
+"name": "Batman",
+"plate": 72,
+"bbox": [
+41.015,
+37.499,
+41.837,
+38.574
+]
+},
+{
+"id": "sirnak",
+"name": "Şırnak",
+"plate": 73,
+"bbox": [
+41.662,
+37.09,
+43.429,
+37.786
+]
+},
+{
+"id": "bartin",
+"name": "Bartın",
+"plate": 74,
+"bbox": [
+32.114,
+41.307,
+32.893,
+41.88
+]
+},
+{
+"id": "ardahan",
+"name": "Ardahan",
+"plate": 75,
+"bbox": [
+42.259,
+40.579,
+43.472,
+41.608
+]
+},
+{
+"id": "igdir",
+"name": "Iğdır",
+"plate": 76,
+"bbox": [
+43.298,
+39.608,
+44.827,
+40.13
+]
+},
+{
+"id": "yalova",
+"name": "Yalova",
+"plate": 77,
+"bbox": [
+28.754,
+40.441,
+29.449,
+40.728
+]
+},
+{
+"id": "karabuk",
+"name": "Karabük",
+"plate": 78,
+"bbox": [
+32.129,
+40.769,
+33.135,
+41.596
+]
+},
+{
+"id": "kilis",
+"name": "Kilis",
+"plate": 79,
+"bbox": [
+36.64,
+36.6,
+37.542,
+37.044
+]
+},
+{
+"id": "osmaniye",
+"name": "Osmaniye",
+"plate": 80,
+"bbox": [
+35.92,
+36.936,
+36.741,
+37.69
+]
+},
+{
+"id": "duzce",
+"name": "Düzce",
+"plate": 81,
+"bbox": [
+30.849,
+40.652,
+31.819,
+41.171
+]
+}
+]

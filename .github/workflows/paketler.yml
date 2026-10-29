@@ -1,0 +1,78 @@
+name: Harita paketlerini üret
+
+on:
+  workflow_dispatch:
+    inputs:
+      iller:
+        description: 'İl kimlikleri (virgülle) ya da "hepsi"'
+        default: 'hepsi'
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  SURUM: v1
+
+jobs:
+  hazirla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sürüm sayfasını aç (yoksa)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release view "$SURUM" || gh release create "$SURUM" --title "Harita paketleri $SURUM" --notes "Kamp Defteri internetsiz il paketleri. Veri © OpenStreetMap katkıcıları (ODbL), Protomaps. Yükseklik: Mapterhorn, Copernicus GLO-30."
+
+  uret:
+    needs: hazirla
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        grup: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+      - name: Araçlar
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq gdal-bin tippecanoe
+          pip install --quiet pmtiles pillow numpy
+          mkdir -p uretim/bin
+          GOBIN=$PWD/uretim/bin go install github.com/protomaps/go-pmtiles@latest
+      - name: Paketleri üret ve yükle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd uretim
+          # Protomaps'in en son günlük derlemesi
+          export PROTOMAPS="https://build.protomaps.com/$(curl -s https://build-metadata.protomaps.dev/builds.json | python3 -c 'import json,sys;print(json.load(sys.stdin)[-1]["key"])')"
+          echo "Kaynak: $PROTOMAPS"
+          python3 grup.py ${{ matrix.grup }} 8 "${{ github.event.inputs.iller }}" > liste.tsv
+          while IFS=$'\t' read -r id ad bbox; do
+            echo "== $ad"
+            python3 build_pack.py "$id" "$ad" "$bbox" out
+            cp "out/$id/info.json" "out/$id/${id}_info.json"
+            gh release upload "$SURUM" out/$id/${id}_harita.pmtiles out/$id/${id}_egri.pmtiles out/$id/${id}_golge.pmtiles out/$id/${id}_dem.pmtiles out/$id/${id}_info.json --clobber
+            rm -rf "out/$id"
+          done < liste.tsv
+
+  katalog:
+    needs: uret
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kataloğu üret ve yükle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir bilgi
+          gh release download "$SURUM" --pattern '*_info.json' --dir bilgi
+          python3 uretim/katalog.py bilgi iller.json
+          gh release upload "$SURUM" iller.json --clobber
