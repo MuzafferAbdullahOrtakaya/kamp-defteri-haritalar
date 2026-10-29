@@ -22,7 +22,8 @@ jobs:
       - name: Sürüm sayfasını aç (yoksa)
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release view "$SURUM" || gh release create "$SURUM" --title "Harita paketleri $SURUM" --notes "Kamp Defteri internetsiz il paketleri. Veri © OpenStreetMap katkıcıları (ODbL), Protomaps. Yükseklik: Mapterhorn, Copernicus GLO-30."
+        run: |
+          gh release view "$SURUM" || gh release create "$SURUM" --title "Harita paketleri $SURUM" --notes "Kamp Defteri internetsiz il paketleri. Veri © OpenStreetMap katkıcıları (ODbL), Protomaps. Yükseklik: Mapterhorn, Copernicus GLO-30."
 
   uret:
     needs: hazirla
