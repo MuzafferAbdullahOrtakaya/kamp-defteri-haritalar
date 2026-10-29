@@ -3,11 +3,11 @@ import subprocess, numpy as np
 from PIL import Image, ImageOps
 sp = json.load(open('species.json')); cand = json.load(open('cand.json'))
 I = json.load(open('img_info.json')); A = json.load(open('aud_info.json'))
-for fn in ('extra.json', 'extra2.json'):
+for fn in ('extra.json', 'extra2.json', 'extra3.json'):
     for k, d in json.load(open(fn)).items():
         for f, v in d.items():
             (I if v.get('thumb') else A)[f] = v
-img_override = {"susamuru": "European otter 01.jpg", "alabalik": "Salmo trutta fario-1.jpg",
+img_override = {"kesebocegi": "Thaumetopoea Pityocampa - Procession.jpg", "puhu": "Bubo bubo 1 (Martin Mecnarowski).jpg", "hazer": "Dolichophis jugularis-2015.jpg", "susamuru": "European otter 01.jpg", "alabalik": "Salmo trutta fario-1.jpg",
                 "coban_kopegi": "Anatolian Shepherd Dog - Kangal köpeği 01.jpg"}
 aud_override = {"ayi": "Yellowstone sound library - Grizzly Bears Roar - 001.mp3", "puhu": "BuboBuboMariankaSlovakia2012.ogg",
                 "agackakan": "Buntspecht Trommeln.ogv", "yalicapkini": "Ijsvogel in Nieuwegein - SoundCloud - luc de bruijn.ogg",
