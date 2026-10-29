@@ -19,7 +19,7 @@ credits = json.load(open('credits.json')) if os.path.exists('credits.json') else
 def dl(url, path):
     if os.path.exists(path) and os.path.getsize(path) > 0: return
     open(path, 'wb').write(get(url, raw=True))
-for k in ids:
+def one(k):
     lat = sp.get(k)
     c = cand.get(lat, {"img": [], "audio": []}) if lat else {"img": [], "audio": []}
     cr = credits.setdefault(k, {})
@@ -35,7 +35,7 @@ for k in ids:
         cr["img"] = {"file": f, "artist": v["artist"], "lic": v["lic"], "page": v["page"]}
         print(k, "img", os.path.getsize(f"out/img/{k}.webp"), flush=True)
     # ---- ses
-    if k in skip_aud: continue
+    if k in skip_aud: return
     f = aud_override.get(k) or next((x for x in c["audio"] if A.get(x, {}).get("ok")), None)
     if f and not os.path.exists(f"out/snd/{k}.m4a"):
         v = A[f]
@@ -58,4 +58,12 @@ for k in ids:
                         "-c:a", "aac", "-b:a", "48k", f"out/snd/{k}.m4a"], check=True)
         cr["snd"] = {"file": f, "artist": v["artist"], "lic": v["lic"], "page": v["page"]}
         print(k, "snd", round(dur, 1), os.path.getsize(f"out/snd/{k}.m4a"), flush=True)
+
+fails = []
+for k in ids:
+    try:
+        one(k)
+    except Exception as e:
+        print("HATA", k, e, flush=True); fails.append(k)
     json.dump(credits, open('credits.json', 'w'), ensure_ascii=False, indent=1)
+print("eksik:", fails)
