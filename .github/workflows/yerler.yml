@@ -1,0 +1,48 @@
+name: Topluluk yerleri ve yürüyüş rotaları
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'   # her pazartesi
+  push:
+    paths:
+      - 'uretim/yerler/**'
+      - '.github/workflows/yerler.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  yerler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Araçlar
+        run: pip install -q osmium shapely
+      - name: Türkiye OSM verisini indir
+        run: |
+          for i in 1 2 3; do curl -fsSL -o tr.osm.pbf https://download.geofabrik.de/europe/turkey-latest.osm.pbf && break; sleep 30; done
+          ls -la tr.osm.pbf
+      - name: Yerleri ve rotaları çıkar
+        run: |
+          mkdir -p cikti
+          python uretim/yerler/yerler.py tr.osm.pbf cikti
+          ls -la cikti
+          python - <<'PY'
+          import json, gzip, os, datetime
+          d = {"t": datetime.date.today().isoformat()}
+          for f in ("yerler.json.gz", "rotalar.json.gz"):
+              d[f] = os.path.getsize("cikti/" + f)
+          json.dump(d, open("cikti/surum.json", "w"))
+          print(d)
+          PY
+      - name: Sürüm sayfasına yükle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view yerler || gh release create yerler --title "Topluluk yerleri" --notes "Türkiye kamp alanları, su kaynakları, sığınaklar, zirveler, yer adları ve işaretli yürüyüş rotaları. Veri © OpenStreetMap katkıcıları, ODbL 1.0 (https://www.openstreetmap.org/copyright). Her pazartesi güncellenir."
+          gh release upload yerler cikti/yerler.json.gz cikti/rotalar.json.gz cikti/surum.json --clobber
