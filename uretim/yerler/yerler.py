@@ -15,14 +15,16 @@ KINDS = ["camp", "caravan", "hut", "shelter", "picnic", "spring", "water", "view
 KI = {k: i for i, k in enumerate(KINDS)}
 EXTRA = {"fee", "drinking_water", "toilets", "shower", "power_supply", "internet_access", "tents", "caravans", "capacity",
          "website", "contact:website", "phone", "contact:phone", "opening_hours", "operator", "description", "backcountry",
-         "access", "dog", "bbq", "fireplace", "openfire", "ele", "intermittent", "seasonal", "wikipedia", "stars", "reservation"}
+         "access", "dog", "bbq", "fireplace", "openfire", "ele", "intermittent", "seasonal", "wikipedia", "stars", "reservation",
+         "shelter_type", "potable", "drinking_water:legal", "height", "fee:conditional", "beds", "check_date"}
 
 def kind_of(t):
     g = t.get
     if g("tourism") == "camp_site": return "camp"
     if g("tourism") == "caravan_site": return "caravan"
     if g("tourism") in ("alpine_hut", "wilderness_hut"): return "hut"
-    if g("amenity") == "shelter": return "shelter"
+    if g("amenity") == "shelter" and g("shelter_type") not in ("public_transport", "changing_rooms", "sun_shelter", "smoking_shelter", "parking", "field_shelter"):
+        return "shelter"
     if g("tourism") == "picnic_site" or g("leisure") == "picnic_site": return "picnic"
     if g("natural") == "spring": return "spring"
     if g("amenity") in ("drinking_water", "water_point") or g("man_made") == "water_tap" or \
