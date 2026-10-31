@@ -17,7 +17,8 @@ img_override = {"kesebocegi": "Thaumetopoea Pityocampa - Procession.jpg", "puhu"
                 "gece_kurbagasi": "Bufotes viridis – Ropucha zelená – Roztoky u Prahy 01.jpg",
                 "kefal": "Mújol (Mugil cephalus), Parque natural de la Arrábida, Portugal, 2021-09-09, DD 25.jpg",
                 "cipura": "Sparus aurata Sardegna.jpg", "turna_baligi": "Esox Lucius.JPG",
-                "sari_akrep": "Deathstalker (Leiurus quinquestriatus) 7.jpg"}
+                "sari_akrep": "Deathstalker (Leiurus quinquestriatus) 7.jpg",
+                "alageyik": "Fallow deer in field.jpg"}
 aud_override = {"ayi": "Yellowstone sound library - Grizzly Bears Roar - 001.mp3", "puhu": "BuboBuboMariankaSlovakia2012.ogg",
                 "agackakan": "Buntspecht Trommeln.ogv", "yalicapkini": "Ijsvogel in Nieuwegein - SoundCloud - luc de bruijn.ogg",
                 "agac_kurbagasi": "Laubfrosch Balzruf.OGG", "flamingo": "Phoenicopterus roseus (Rosaflamingo - Greater Flamingo) — Weltvogelpark Walsrode 2013.ogg",
