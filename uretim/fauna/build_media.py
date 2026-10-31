@@ -8,12 +8,22 @@ for fn in ('extra.json', 'extra2.json', 'extra3.json'):
         for f, v in d.items():
             (I if v.get('thumb') else A)[f] = v
 img_override = {"kesebocegi": "Thaumetopoea Pityocampa - Procession.jpg", "puhu": "Bubo bubo 1 (Martin Mecnarowski).jpg", "hazer": "Dolichophis jugularis-2015.jpg", "susamuru": "European otter 01.jpg", "alabalik": "Salmo trutta fario-1.jpg",
-                "coban_kopegi": "Anatolian Shepherd Dog - Kangal köpeği 01.jpg"}
+                "coban_kopegi": "Anatolian Shepherd Dog - Kangal köpeği 01.jpg",
+                # 1.6 ile eklenenler: aramanın ilk sonucu yanlış tür, müze örneği ya da pul olanlar
+                "sansar": "Stone marten (Martes foina) Drenthe.jpg", "yabankoyunu": "Ovis gmelinii gmelinii 110641513.jpg",
+                "sahipsiz_kopek": "Stray dog in Istanbul, Turkey, 05052026.jpg", "sigir": "Cow pyrenees.JPG",
+                "sican": "Brown rat (Rattus norvegicus) Drenthe 2.jpg", "turna": "Grus grus (Périgné) 18022022 02.jpg",
+                "kukumav": "Домовый сыч. Сова в каньоне урочища Бозжыра. 01.jpg", "saksagan": "Eurasian magpie 2024 03 03 02.jpg",
+                "gece_kurbagasi": "Bufotes viridis – Ropucha zelená – Roztoky u Prahy 01.jpg",
+                "kefal": "Mújol (Mugil cephalus), Parque natural de la Arrábida, Portugal, 2021-09-09, DD 25.jpg",
+                "cipura": "Sparus aurata Sardegna.jpg", "turna_baligi": "Esox Lucius.JPG",
+                "sari_akrep": "Deathstalker (Leiurus quinquestriatus) 7.jpg"}
 aud_override = {"ayi": "Yellowstone sound library - Grizzly Bears Roar - 001.mp3", "puhu": "BuboBuboMariankaSlovakia2012.ogg",
                 "agackakan": "Buntspecht Trommeln.ogv", "yalicapkini": "Ijsvogel in Nieuwegein - SoundCloud - luc de bruijn.ogg",
                 "agac_kurbagasi": "Laubfrosch Balzruf.OGG", "flamingo": "Phoenicopterus roseus (Rosaflamingo - Greater Flamingo) — Weltvogelpark Walsrode 2013.ogg",
                 "guguk": "Cuculus canorus.ogg", "alacabaykus": "Tawny Owl (Strix aluco) (W1CDR0001427 BD9).ogg"}
-skip_aud = {"balarisi"}  # 15 dk'lık laboratuvar kaydı, uygun değil
+skip_aud = {"balarisi",  # 15 dk'lık laboratuvar kaydı, uygun değil
+            "yabankedisi"}  # yalnızca ev kedisi kayıtları var
 ids = list(sp) + ["coban_kopegi"]
 credits = json.load(open('credits.json')) if os.path.exists('credits.json') else {}
 def dl(url, path):

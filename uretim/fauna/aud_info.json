@@ -208,5 +208,885 @@
   "mime": "audio/mpeg",
   "dur": 54.053333333333335,
   "ok": true
+ },
+ "Abubilla.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Abubilla.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sternanita3",
+  "page": "https://commons.wikimedia.org/wiki/File:Abubilla.ogg",
+  "mime": "application/ogg",
+  "dur": 20.16,
+  "ok": true
+ },
+ "Asian green bee-eater call recorded in August 2014 at Sangli.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Asian_green_bee-eater_call_recorded_in_August_2014_at_Sangli.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sharadapte",
+  "page": "https://commons.wikimedia.org/wiki/File:Asian_green_bee-eater_call_recorded_in_August_2014_at_Sangli.wav",
+  "mime": "audio/wav",
+  "dur": 2.927277777777778,
+  "ok": true
+ },
+ "Athene noctua - Little Owl XC309481.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Athene_noctua_-_Little_Owl_XC309481.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Nikolaos Sarikakis",
+  "page": "https://commons.wikimedia.org/wiki/File:Athene_noctua_-_Little_Owl_XC309481.mp3",
+  "mime": "audio/mpeg",
+  "dur": 253.69885,
+  "ok": true
+ },
+ "Athene noctua - Little Owl XC431980.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Athene_noctua_-_Little_Owl_XC431980.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Joost van Bruggen",
+  "page": "https://commons.wikimedia.org/wiki/File:Athene_noctua_-_Little_Owl_XC431980.mp3",
+  "mime": "audio/mpeg",
+  "dur": 12.711225,
+  "ok": true
+ },
+ "Athene noctua - Little Owl XC432927.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Athene_noctua_-_Little_Owl_XC432927.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Joost van Bruggen",
+  "page": "https://commons.wikimedia.org/wiki/File:Athene_noctua_-_Little_Owl_XC432927.mp3",
+  "mime": "audio/mpeg",
+  "dur": 16.43015,
+  "ok": true
+ },
+ "Audio File of Dama Paulista, 1808.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Audio_File_of_Dama_Paulista%2C_1808.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Alanalexis8",
+  "page": "https://commons.wikimedia.org/wiki/File:Audio_File_of_Dama_Paulista,_1808.wav",
+  "mime": "audio/wav",
+  "dur": 91.208,
+  "ok": true
+ },
+ "Barking of a dog.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Barking_of_a_dog.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Amada44",
+  "page": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg",
+  "mime": "application/ogg",
+  "dur": 2.610204081632653,
+  "ok": true
+ },
+ "Barking of a dog 2.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Barking_of_a_dog_2.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Amada44",
+  "page": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog_2.ogg",
+  "mime": "application/ogg",
+  "dur": 4.01984126984127,
+  "ok": true
+ },
+ "Blue-bearded bee-eater call recorded in March 2004 at Jamboti, Karnataka.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Blue-bearded_bee-eater_call_recorded_in_March_2004_at_Jamboti%2C_Karnataka.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sharadapte",
+  "page": "https://commons.wikimedia.org/wiki/File:Blue-bearded_bee-eater_call_recorded_in_March_2004_at_Jamboti,_Karnataka.wav",
+  "mime": "audio/wav",
+  "dur": 5.786288737717309,
+  "ok": true
+ },
+ "Blue-tailed bee-eater call recorded in January 2003 at Castle Rock, Karnataka.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Blue-tailed_bee-eater_call_recorded_in_January_2003_at_Castle_Rock%2C_Karnataka.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sharadapte",
+  "page": "https://commons.wikimedia.org/wiki/File:Blue-tailed_bee-eater_call_recorded_in_January_2003_at_Castle_Rock,_Karnataka.wav",
+  "mime": "audio/wav",
+  "dur": 5,
+  "ok": true
+ },
+ "Bufo-viridis-mating-call.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bufo-viridis-mating-call.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Mnolf",
+  "page": "https://commons.wikimedia.org/wiki/File:Bufo-viridis-mating-call.ogg",
+  "mime": "application/ogg",
+  "dur": 55.12673469387755,
+  "ok": true
+ },
+ "Chant chevêche d'Athéna.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chant_chev%C3%AAche_d%27Ath%C3%A9na.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Tim Tim (VD fr)",
+  "page": "https://commons.wikimedia.org/wiki/File:Chant_chev%C3%AAche_d%27Ath%C3%A9na.wav",
+  "mime": "audio/wav",
+  "dur": 12.3194375,
+  "ok": true
+ },
+ "Charles 'Cow Cow' Davenport - Atlanta Rag (1922).ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Charles_%27Cow_Cow%27_Davenport_-_Atlanta_Rag_%281922%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "Public domain",
+  "artist": "Gnissah",
+  "page": "https://commons.wikimedia.org/wiki/File:Charles_%27Cow_Cow%27_Davenport_-_Atlanta_Rag_(1922).ogg",
+  "mime": "application/ogg",
+  "dur": 272.06,
+  "ok": true
+ },
+ "Chestnut-headed bee-eater call recorded in November 2013 at SACON Institute, Tamil Nadu.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Chestnut-headed_bee-eater_call_recorded_in_November_2013_at_SACON_Institute%2C_Tamil_Nadu.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sharadapte",
+  "page": "https://commons.wikimedia.org/wiki/File:Chestnut-headed_bee-eater_call_recorded_in_November_2013_at_SACON_Institute,_Tamil_Nadu.wav",
+  "mime": "audio/wav",
+  "dur": 4.994791666666667,
+  "ok": true
+ },
+ "Common Raven (Corvus corax) (W1CDR0001449 BD6).ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Common_Raven_%28Corvus_corax%29_%28W1CDR0001449_BD6%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "bilinmiyor",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_Raven_(Corvus_corax)_(W1CDR0001449_BD6).ogg",
+  "mime": "application/ogg",
+  "dur": 102.75371882086168,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven - XC101590.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Corvus_corax_-_Northern_Raven_-_XC101590.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_-_XC101590.ogg",
+  "mime": "application/ogg",
+  "dur": 13.374467120181405,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven - XC110257, noisefiltered-cropped.oga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Corvus_corax_-_Northern_Raven_-_XC110257%2C_noisefiltered-cropped.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_-_XC110257,_noisefiltered-cropped.oga",
+  "mime": "application/ogg",
+  "dur": 32.878843537414966,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven - XC110257.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Corvus_corax_-_Northern_Raven_-_XC110257.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_-_XC110257.ogg",
+  "mime": "application/ogg",
+  "dur": 82.49469387755101,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven XC101590.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Corvus_corax_-_Northern_Raven_XC101590.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_XC101590.mp3",
+  "mime": "audio/mpeg",
+  "dur": 13.414625,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven XC139573.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Corvus_corax_-_Northern_Raven_XC139573.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_XC139573.ogg",
+  "mime": "application/ogg",
+  "dur": 55.32,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven XC488951.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Corvus_corax_-_Northern_Raven_XC488951.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Benjamin Mayer",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_XC488951.mp3",
+  "mime": "audio/mpeg",
+  "dur": 47.313174889815336,
+  "ok": true
+ },
+ "Corvus corax - Northern Raven XC496700.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Corvus_corax_-_Northern_Raven_XC496700.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_XC496700.mp3",
+  "mime": "audio/mpeg",
+  "dur": 31.7515,
+  "ok": true
+ },
+ "Cow in Antefasy.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cow_in_Antefasy.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Gasybeaugosse2020",
+  "page": "https://commons.wikimedia.org/wiki/File:Cow_in_Antefasy.wav",
+  "mime": "audio/wav",
+  "dur": 1.7270068027210885,
+  "ok": true
+ },
+ "Cow in Vezo.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cow_in_Vezo.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Gasybeaugosse2020",
+  "page": "https://commons.wikimedia.org/wiki/File:Cow_in_Vezo.ogg",
+  "mime": "application/ogg",
+  "dur": 1.2731746031746032,
+  "ok": true
+ },
+ "Dag-dama o daa bi nyari kom sura..oga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dag-dama_o_daa_bi_nyari_kom_sura..oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Napagachenty",
+  "page": "https://commons.wikimedia.org/wiki/File:Dag-dama_o_daa_bi_nyari_kom_sura..oga",
+  "mime": "application/ogg",
+  "dur": 2.48,
+  "ok": true
+ },
+ "Dag-dama yɛlimaŋli.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Dag-dama_y%C9%9Blima%C5%8Bli.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Amina Awusi",
+  "page": "https://commons.wikimedia.org/wiki/File:Dag-dama_y%C9%9Blima%C5%8Bli.ogg",
+  "mime": "application/ogg",
+  "dur": 1.84,
+  "ok": true
+ },
+ "Dag-ni dama o nyɔmi.oga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Dag-ni_dama_o_ny%C9%94mi.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Napagachenty",
+  "page": "https://commons.wikimedia.org/wiki/File:Dag-ni_dama_o_ny%C9%94mi.oga",
+  "mime": "application/ogg",
+  "dur": 1.68,
+  "ok": true
+ },
+ "Dama-dama.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Dama-dama.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Abdullahi Saidu",
+  "page": "https://commons.wikimedia.org/wiki/File:Dama-dama.ogg",
+  "mime": "application/ogg",
+  "dur": 1.3979591836734695,
+  "ok": true
+ },
+ "Dama Kumari Sharma.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Dama_Kumari_Sharma.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Krish Dulal",
+  "page": "https://commons.wikimedia.org/wiki/File:Dama_Kumari_Sharma.ogg",
+  "mime": "application/ogg",
+  "dur": 2.022267573696145,
+  "ok": true
+ },
+ "De-Steinkauz.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/De-Steinkauz.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Jeuwre",
+  "page": "https://commons.wikimedia.org/wiki/File:De-Steinkauz.ogg",
+  "mime": "application/ogg",
+  "dur": 2.28,
+  "ok": true
+ },
+ "De-Wechselkröte.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/De-Wechselkr%C3%B6te.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Jeuwre",
+  "page": "https://commons.wikimedia.org/wiki/File:De-Wechselkr%C3%B6te.ogg",
+  "mime": "application/ogg",
+  "dur": 2.38,
+  "ok": true
+ },
+ "EN-Cow Tools.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/EN-Cow_Tools.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Zeroground7",
+  "page": "https://commons.wikimedia.org/wiki/File:EN-Cow_Tools.ogg",
+  "mime": "application/ogg",
+  "dur": 135.99043083900227,
+  "ok": true
+ },
+ "En-au-moo moo.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/En-au-moo_moo.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Tooironic",
+  "page": "https://commons.wikimedia.org/wiki/File:En-au-moo_moo.ogg",
+  "mime": "application/ogg",
+  "dur": 1.5673469387755101,
+  "ok": true
+ },
+ "En-uk-fallow deer.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/En-uk-fallow_deer.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "Public domain",
+  "artist": "bilinmiyor",
+  "page": "https://commons.wikimedia.org/wiki/File:En-uk-fallow_deer.ogg",
+  "mime": "application/ogg",
+  "dur": 2.497596371882086,
+  "ok": true
+ },
+ "En-us-pica.oga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/En-us-pica.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Paul2520",
+  "page": "https://commons.wikimedia.org/wiki/File:En-us-pica.oga",
+  "mime": "application/ogg",
+  "dur": 0.7778684807256235,
+  "ok": true
+ },
+ "Eurasian hoopoe song recorded in January 1999 at Perambikulam, Kerala.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Eurasian_hoopoe_song_recorded_in_January_1999_at_Perambikulam%2C_Kerala.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Sharadapte",
+  "page": "https://commons.wikimedia.org/wiki/File:Eurasian_hoopoe_song_recorded_in_January_1999_at_Perambikulam,_Kerala.wav",
+  "mime": "audio/wav",
+  "dur": 8.5,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC463430.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Falco_tinnunculus_-_Common_Kestrel_XC463430.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Javier Herrera",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC463430.mp3",
+  "mime": "audio/mpeg",
+  "dur": 30.904273227047828,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC468403.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Falco_tinnunculus_-_Common_Kestrel_XC468403.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC468403.mp3",
+  "mime": "audio/mpeg",
+  "dur": 29.068836492742072,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC468409.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Falco_tinnunculus_-_Common_Kestrel_XC468409.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC468409.mp3",
+  "mime": "audio/mpeg",
+  "dur": 30.665135945548542,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC474112.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Falco_tinnunculus_-_Common_Kestrel_XC474112.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC474112.mp3",
+  "mime": "audio/mpeg",
+  "dur": 130.22254119969418,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC474122.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Falco_tinnunculus_-_Common_Kestrel_XC474122.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC474122.mp3",
+  "mime": "audio/mpeg",
+  "dur": 68.44259176070064,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC478287.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Falco_tinnunculus_-_Common_Kestrel_XC478287.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC478287.mp3",
+  "mime": "audio/mpeg",
+  "dur": 123.4811,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC478472.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Falco_tinnunculus_-_Common_Kestrel_XC478472.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC478472.mp3",
+  "mime": "audio/mpeg",
+  "dur": 49.990875,
+  "ok": true
+ },
+ "Falco tinnunculus - Common Kestrel XC589714.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Falco_tinnunculus_-_Common_Kestrel_XC589714.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Pascal Christe",
+  "page": "https://commons.wikimedia.org/wiki/File:Falco_tinnunculus_-_Common_Kestrel_XC589714.mp3",
+  "mime": "audio/mpeg",
+  "dur": 6.754075,
+  "ok": true
+ },
+ "Fallow Deer (Dama dama) (W1CDR0001444 BD17).ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fallow_Deer_%28Dama_dama%29_%28W1CDR0001444_BD17%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "bilinmiyor",
+  "page": "https://commons.wikimedia.org/wiki/File:Fallow_Deer_(Dama_dama)_(W1CDR0001444_BD17).ogg",
+  "mime": "application/ogg",
+  "dur": 25.40514739229025,
+  "ok": true
+ },
+ "Felis silvestris catus, aanval, 2023-08-28 04h39, a.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Felis_silvestris_catus%2C_aanval%2C_2023-08-28_04h39%2C_a.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "JMK",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus,_aanval,_2023-08-28_04h39,_a.mp3",
+  "mime": "audio/mpeg",
+  "dur": 69.30286440902793,
+  "ok": true
+ },
+ "Felis silvestris catus, aggressie, 2023-08-19 02h06, a.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Felis_silvestris_catus%2C_aggressie%2C_2023-08-19_02h06%2C_a.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "JMK",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus,_aggressie,_2023-08-19_02h06,_a.mp3",
+  "mime": "audio/mpeg",
+  "dur": 155.16734877598017,
+  "ok": true
+ },
+ "Felis silvestris catus, aggressie, 2023-08-19 02h06, b.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Felis_silvestris_catus%2C_aggressie%2C_2023-08-19_02h06%2C_b.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "JMK",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus,_aggressie,_2023-08-19_02h06,_b.mp3",
+  "mime": "audio/mpeg",
+  "dur": 10.605734097884824,
+  "ok": true
+ },
+ "Felis silvestris catus, aggressie, 2023-08-19 02h06, c.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Felis_silvestris_catus%2C_aggressie%2C_2023-08-19_02h06%2C_c.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "JMK",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus,_aggressie,_2023-08-19_02h06,_c.mp3",
+  "mime": "audio/mpeg",
+  "dur": 5.093883050216184,
+  "ok": true
+ },
+ "Felis silvestris catus, aggressie, 2023-08-19 02h06, d.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Felis_silvestris_catus%2C_aggressie%2C_2023-08-19_02h06%2C_d.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "JMK",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus,_aggressie,_2023-08-19_02h06,_d.mp3",
+  "mime": "audio/mpeg",
+  "dur": 18.886564003167937,
+  "ok": true
+ },
+ "Felis silvestris catus.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Felis_silvestris_catus.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 2.5",
+  "artist": "Jeanot",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus.ogg",
+  "mime": "application/ogg",
+  "dur": 1.6718367346938776,
+  "ok": true
+ },
+ "Felis silvestris catus meows.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Felis_silvestris_catus_meows.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Tobias Puderer",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_meows.ogg",
+  "mime": "application/ogg",
+  "dur": 10.634739229024943,
+  "ok": true
+ },
+ "Felis silvestris catus purrs.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Felis_silvestris_catus_purrs.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Tobias Puderer",
+  "page": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_purrs.ogg",
+  "mime": "application/ogg",
+  "dur": 31.518916666666666,
+  "ok": true
+ },
+ "Grus canadensis - Sandhill Crane - XC111489.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Grus_canadensis_-_Sandhill_Crane_-_XC111489.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_-_XC111489.ogg",
+  "mime": "application/ogg",
+  "dur": 28.02938775510204,
+  "ok": true
+ },
+ "Grus canadensis - Sandhill Crane XC111489.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Grus_canadensis_-_Sandhill_Crane_XC111489.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_XC111489.mp3",
+  "mime": "audio/mpeg",
+  "dur": 28.08625,
+  "ok": true
+ },
+ "Grus canadensis - Sandhill Crane XC111490.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Grus_canadensis_-_Sandhill_Crane_XC111490.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_XC111490.mp3",
+  "mime": "audio/mpeg",
+  "dur": 18.1376875,
+  "ok": true
+ },
+ "Grus canadensis - Sandhill Crane XC111491.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Grus_canadensis_-_Sandhill_Crane_XC111491.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Jonathon Jongsma",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_-_Sandhill_Crane_XC111491.mp3",
+  "mime": "audio/mpeg",
+  "dur": 42.926,
+  "ok": true
+ },
+ "Grus grus - Common Crane XC594758.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Grus_grus_-_Common_Crane_XC594758.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Pálos Lőrinc",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_grus_-_Common_Crane_XC594758.mp3",
+  "mime": "audio/mpeg",
+  "dur": 27.467599872957148,
+  "ok": true
+ },
+ "Grus grus - Common Crane XC596509.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Grus_grus_-_Common_Crane_XC596509.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Benoît Van Hecke",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_grus_-_Common_Crane_XC596509.mp3",
+  "mime": "audio/mpeg",
+  "dur": 40.35833038556774,
+  "ok": true
+ },
+ "Grus virgo - Demoiselle Crane XC156368.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Grus_virgo_-_Demoiselle_Crane_XC156368.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Sudipto Roy",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_virgo_-_Demoiselle_Crane_XC156368.mp3",
+  "mime": "audio/mpeg",
+  "dur": 45.7668125,
+  "ok": true
+ },
+ "I Want to Go Back to Michigan.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/I_Want_to_Go_Back_to_Michigan.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "Public domain",
+  "artist": "Irving Berlin, performed by Billy Murray, recorded by Edison Mfg. Co. (New Jerse",
+  "page": "https://commons.wikimedia.org/wiki/File:I_Want_to_Go_Back_to_Michigan.ogg",
+  "mime": "application/ogg",
+  "dur": 227.31174603174603,
+  "ok": true
+ },
+ "Kcg-a̱nywan (little owl).ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Kcg-a%CC%B1nywan_%28little_owl%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Danjuma Anthony",
+  "page": "https://commons.wikimedia.org/wiki/File:Kcg-a%CC%B1nywan_(little_owl).ogg",
+  "mime": "application/ogg",
+  "dur": 1.12,
+  "ok": true
+ },
+ "LL-Q1860 (eng)-Vealhurl-barking dogs seldom bite.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/LL-Q1860_%28eng%29-Vealhurl-barking_dogs_seldom_bite.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Speaker: Vealhurl Recorder: Vealhurl",
+  "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-barking_dogs_seldom_bite.wav",
+  "mime": "audio/wav",
+  "dur": 1.928,
+  "ok": true
+ },
+ "LL-Q1860 (eng)-Vealhurl-bee-eater.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/LL-Q1860_%28eng%29-Vealhurl-bee-eater.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Speaker: Vealhurl Recorder: Vealhurl",
+  "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-bee-eater.wav",
+  "mime": "audio/wav",
+  "dur": 1.3093333333333332,
+  "ok": true
+ },
+ "LS110175UpupaEpops.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/LS110175UpupaEpops.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Alexander Kürthy",
+  "page": "https://commons.wikimedia.org/wiki/File:LS110175UpupaEpops.ogg",
+  "mime": "application/ogg",
+  "dur": 29.544,
+  "ok": true
+ },
+ "Little owl, steenuil.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Little_owl%2C_steenuil.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Klankbeeld",
+  "page": "https://commons.wikimedia.org/wiki/File:Little_owl,_steenuil.wav",
+  "mime": "audio/wav",
+  "dur": 75.134,
+  "ok": true
+ },
+ "Merops albicollis - White-throated Bee-eater XC405029.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Merops_albicollis_-_White-throated_Bee-eater_XC405029.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Anne Ndung'u",
+  "page": "https://commons.wikimedia.org/wiki/File:Merops_albicollis_-_White-throated_Bee-eater_XC405029.mp3",
+  "mime": "audio/mpeg",
+  "dur": 116.641125,
+  "ok": true
+ },
+ "Merops apiaster - European Bee-eater XC477953.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Merops_apiaster_-_European_Bee-eater_XC477953.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Pascal Christe",
+  "page": "https://commons.wikimedia.org/wiki/File:Merops_apiaster_-_European_Bee-eater_XC477953.mp3",
+  "mime": "audio/mpeg",
+  "dur": 16.55875,
+  "ok": true
+ },
+ "Merops oreobates - Cinnamon-chested Bee-eater XC366684.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Merops_oreobates_-_Cinnamon-chested_Bee-eater_XC366684.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Anne Ndung'u",
+  "page": "https://commons.wikimedia.org/wiki/File:Merops_oreobates_-_Cinnamon-chested_Bee-eater_XC366684.mp3",
+  "mime": "audio/mpeg",
+  "dur": 120.67858120188079,
+  "ok": true
+ },
+ "Mudchute cow 1.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mudchute_cow_1.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Secretlondon",
+  "page": "https://commons.wikimedia.org/wiki/File:Mudchute_cow_1.ogg",
+  "mime": "application/ogg",
+  "dur": 2.1942857142857144,
+  "ok": true
+ },
+ "Perro ladrando.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Perro_ladrando.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Armartinell",
+  "page": "https://commons.wikimedia.org/wiki/File:Perro_ladrando.ogg",
+  "mime": "application/ogg",
+  "dur": 5.410181405895692,
+  "ok": true
+ },
+ "Phoeniculus purpureus - Green Wood Hoopoe XC610940.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Phoeniculus_purpureus_-_Green_Wood_Hoopoe_XC610940.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "paulo kivuyo",
+  "page": "https://commons.wikimedia.org/wiki/File:Phoeniculus_purpureus_-_Green_Wood_Hoopoe_XC610940.mp3",
+  "mime": "audio/mpeg",
+  "dur": 12.96170517560074,
+  "ok": true
+ },
+ "Pica pica-2015-6-12-part16.flac": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pica_pica-2015-6-12-part16.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Spyros Papanastasiou",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica-2015-6-12-part16.flac",
+  "mime": "audio/x-flac",
+  "dur": 69.45545833333334,
+  "ok": true
+ },
+ "Pica pica-2015.6.11-orig.flac": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pica_pica-2015.6.11-orig.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC0",
+  "artist": "Spyros Papanastasiou",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica-2015.6.11-orig.flac",
+  "mime": "audio/x-flac",
+  "dur": 799.776,
+  "ok": true
+ },
+ "Pica pica - Eurasian Magpie XC432921.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pica_pica_-_Eurasian_Magpie_XC432921.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Joost van Bruggen",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC432921.mp3",
+  "mime": "audio/mpeg",
+  "dur": 107.726025,
+  "ok": true
+ },
+ "Pica pica - Eurasian Magpie XC475651.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pica_pica_-_Eurasian_Magpie_XC475651.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC475651.mp3",
+  "mime": "audio/mpeg",
+  "dur": 72.311325,
+  "ok": true
+ },
+ "Pica pica - Eurasian Magpie XC478076.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Pica_pica_-_Eurasian_Magpie_XC478076.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC478076.mp3",
+  "mime": "audio/mpeg",
+  "dur": 211.534875,
+  "ok": true
+ },
+ "Pica pica - Eurasian Magpie XC537413.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pica_pica_-_Eurasian_Magpie_XC537413.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Benoît Van Hecke",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC537413.mp3",
+  "mime": "audio/mpeg",
+  "dur": 52.24883333333333,
+  "ok": true
+ },
+ "Pica pica - Eurasian Magpie XC551758.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pica_pica_-_Eurasian_Magpie_XC551758.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Benjamin Mayer",
+  "page": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC551758.mp3",
+  "mime": "audio/mpeg",
+  "dur": 108.453825,
+  "ok": true
+ },
+ "Rottweiler Barking.oga": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Rottweiler_Barking.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "MichaeltheFox8621",
+  "page": "https://commons.wikimedia.org/wiki/File:Rottweiler_Barking.oga",
+  "mime": "application/ogg",
+  "dur": 42.943895833333336,
+  "ok": true
+ },
+ "Single Cow Moo.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Single_Cow_Moo.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "MichaeltheFox8621",
+  "page": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg",
+  "mime": "application/ogg",
+  "dur": 3.768,
+  "ok": true
+ },
+ "Sound of dogs, birds and crickets in early morning.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sound_of_dogs%2C_birds_and_crickets_in_early_morning.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Subhashish Panigrahi",
+  "page": "https://commons.wikimedia.org/wiki/File:Sound_of_dogs,_birds_and_crickets_in_early_morning.wav",
+  "mime": "audio/wav",
+  "dur": 128.72666666666666,
+  "ok": true
+ },
+ "Steinkauz.OGG": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Steinkauz.OGG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "Public domain",
+  "artist": "Rabe19 (Diskussion)",
+  "page": "https://commons.wikimedia.org/wiki/File:Steinkauz.OGG",
+  "mime": "application/ogg",
+  "dur": 65.57024943310658,
+  "ok": true
+ },
+ "Upupa africana - African Hoopoe XC601892.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Upupa_africana_-_African_Hoopoe_XC601892.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "paulo kivuyo",
+  "page": "https://commons.wikimedia.org/wiki/File:Upupa_africana_-_African_Hoopoe_XC601892.mp3",
+  "mime": "audio/mpeg",
+  "dur": 31.730498110355253,
+  "ok": true
+ },
+ "Upupa epops.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Upupa_epops.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Vladimir Yu. Arkhipov, Arkhivov",
+  "page": "https://commons.wikimedia.org/wiki/File:Upupa_epops.ogg",
+  "mime": "application/ogg",
+  "dur": 7.158625,
+  "ok": true
+ },
+ "Upupa epops - Eurasian Hoopoe XC108366.mp3": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Upupa_epops_-_Eurasian_Hoopoe_XC108366.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Alexander Kurthy",
+  "page": "https://commons.wikimedia.org/wiki/File:Upupa_epops_-_Eurasian_Hoopoe_XC108366.mp3",
+  "mime": "audio/mpeg",
+  "dur": 29.5582,
+  "ok": true
+ },
+ "Upupa epops · XC135728.ogg": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Upupa_epops_%C2%B7_XC135728.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Fernand DEROUSSEN",
+  "page": "https://commons.wikimedia.org/wiki/File:Upupa_epops_%C2%B7_XC135728.ogg",
+  "mime": "application/ogg",
+  "dur": 39.72,
+  "ok": true
+ },
+ "Ventana al amanecer.wav": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ventana_al_amanecer.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": null,
+  "lic": "CC BY-SA 4.0",
+  "artist": "AlanRmz",
+  "page": "https://commons.wikimedia.org/wiki/File:Ventana_al_amanecer.wav",
+  "mime": "audio/wav",
+  "dur": 75.2685,
+  "ok": true
  }
 }
