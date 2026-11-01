@@ -1,0 +1,36 @@
+name: Türkiye faunası kataloğu
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'uretim/katalog/**'
+      - '.github/workflows/katalog.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  katalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Araçlar
+        run: pip install -q pillow
+      - name: Vikiveri, Vikipedi ve Commons
+        working-directory: uretim/katalog
+        run: python zenginlestir.py
+      - name: Paketle ve sürüm sayfasına yükle
+        working-directory: uretim/katalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ls out/img | wc -l
+          cd out && zip -qr ../katalog_wiki.zip . && cd ..
+          ls -la katalog_wiki.zip
+          gh release view katalog || gh release create katalog --title "Türkiye faunası kataloğu" --notes "Vikiveri, Vikipedi (CC BY-SA) ve Wikimedia Commons'tan derlenmiş tür bilgileri ve fotoğraflar; yazar ve lisanslar credits.json içinde."
+          gh release upload katalog katalog_wiki.zip --clobber
