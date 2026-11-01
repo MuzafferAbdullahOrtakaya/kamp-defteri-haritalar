@@ -15,7 +15,7 @@ os.makedirs('out/img', exist_ok=True)
 IUCN = {'Q211005': 'LC', 'Q719675': 'NT', 'Q278113': 'VU', 'Q11394': 'EN', 'Q219127': 'CR', 'Q239509': 'EW', 'Q237350': 'EX', 'Q3245245': 'DD'}
 OMURGALI = {'memeli', 'kus', 'surungen', 'amfibi', 'balik'}
 
-def get(url, data=None, tries=6, raw=False):
+def get(url, data=None, tries=8, raw=False):
     for t in range(tries):
         try:
             req = urllib.request.Request(url, data=data, headers={'User-Agent': UA, 'Accept': 'application/json' if not raw else '*/*'})
@@ -24,7 +24,8 @@ def get(url, data=None, tries=6, raw=False):
                 return b if raw else json.loads(b)
         except urllib.error.HTTPError as e:
             if e.code in (404, 400): return None
-            time.sleep(min(60, 3 * 2 ** t))
+            ra = e.headers.get('Retry-After') if e.headers else None
+            time.sleep(int(ra) if ra and ra.isdigit() else min(90, 3 * 2 ** t))
         except Exception:
             time.sleep(min(60, 3 * 2 ** t))
     return None
@@ -54,8 +55,20 @@ def entities(qs):
         'sitefilter': 'trwiki|enwiki', 'format': 'json', 'maxlag': 5}))
     return (d or {}).get('entities', {})
 qs = list(q2k)
-with cf.ThreadPoolExecutor(4) as ex:
-    for ents in ex.map(entities, [qs[i:i + 50] for i in range(0, len(qs), 50)]):
+def all_entities():
+    got = {}
+    todo = qs
+    for rnd in range(4):
+        batches = [todo[i:i + 50] for i in range(0, len(todo), 50)]
+        with cf.ThreadPoolExecutor(2 if rnd == 0 else 1) as ex:
+            for ents in ex.map(entities, batches):
+                got.update(ents)
+        todo = [q for q in qs if q not in got]
+        print('vikiveri tur', rnd, 'eksik', len(todo), flush=True)
+        if not todo: break
+        time.sleep(30)
+    return got
+for ents in [all_entities()]:
         for q, e in ents.items():
             g = q2k.get(q)
             if not g or 'missing' in e: continue
