@@ -1,0 +1,46 @@
+name: Uygulama sürümü yayınla
+
+# surum/X.Y.Z dalına itilen dosyalardan "vX.Y.Z" sürüm sayfası açar.
+# 45 MB'tan büyük dosyalar parça parça (dosya.part00, part01…) gelir, burada birleştirilir.
+# Sürüm yayınlanınca geçici dal silinir; dosyalar yalnızca sürüm sayfasında kalır.
+on:
+  push:
+    branches:
+      - 'surum/**'
+
+permissions:
+  contents: write
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Parçaları birleştir
+        working-directory: dosyalar
+        run: |
+          shopt -s nullglob
+          for p in *.part00; do
+            base="${p%.part00}"
+            cat "$base".part* > "$base"
+            rm "$base".part*
+          done
+          sha256sum -c ../sha256.txt
+          ls -la
+      - name: Sürüm sayfası
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER="${GITHUB_REF_NAME#surum/}"
+          TAG="v$VER"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --notes-file notlar.md
+          else
+            gh release create "$TAG" --target main --title "Kamp Defteri $VER" --notes-file notlar.md --latest
+          fi
+          gh release upload "$TAG" dosyalar/* --clobber
+      - name: Geçici dalı sil
+        run: git push origin --delete "${GITHUB_REF_NAME}"
