@@ -1,0 +1,319 @@
+{
+ "sezon": 2026,
+ "guncelleme": "2026-11-01",
+ "kaynaklar": [
+  {
+   "ad": "Valilik duyuruları (haber derlemeleri)",
+   "url": "https://www.milligazete.com.tr/2026-il-il-orman-yasagi-tarihleri-ne-hangi-sehirlerde-devam-ediyor-yasak-ne-zaman-kalkiyor"
+  },
+  {
+   "ad": "Türkiye'de Orman Yasakları 2026",
+   "url": "https://www.tekbasinadaolur.com/turkiyede-orman-yasaklari-2026-ve-cezalar/"
+  },
+  {
+   "ad": "İl il 2026 takvimi ve devam eden yasaklar",
+   "url": "https://www.dogayidinle.com/orman/ormanlara-giris-yasagi-1-kasimda-kalkiyor-mu-il-il-2026-takvimi-ve-devam-eden-yasaklar/9780"
+  },
+  {
+   "ad": "OGM: 2026 yılında uygulanacak idari para cezaları",
+   "url": "https://www.ogm.gov.tr/tr/e-kutuphane-sitesi/mevzuat-sitesi/Talimatlar/2026_Yilinda_Uygulanacak_Idari_Para_Cezalari.pdf"
+  }
+ ],
+ "cezalar": [
+  {
+   "tr": "Valiliğin giriş yasağına uymamak",
+   "en": "Ignoring the governor's entry ban",
+   "tutar": "3.782 TL",
+   "dayanak": "Orman Kanunu 74 ve 107. madde (2026)"
+  },
+  {
+   "tr": "Devlet ormanında izin verilen yerler dışında gecelemek",
+   "en": "Staying overnight in a state forest outside designated places",
+   "tutar": "4.293 TL",
+   "dayanak": "Orman Kanunu 76 ve 110. madde (2026)"
+  },
+  {
+   "tr": "Ormanda ateş yakmak, yangına sebep olmak",
+   "en": "Lighting a fire in a forest or causing a wildfire",
+   "tutar": "Hapis cezası",
+   "dayanak": "Orman Kanunu 110. madde"
+  }
+ ],
+ "iller": {
+  "34": {
+   "bas": "2026-06-08",
+   "bit": "2026-10-15"
+  },
+  "41": {
+   "bas": "2026-05-15",
+   "bit": "2026-11-01",
+   "not": "Tescilli korunan alanlar ve orman parklarında kontrollü kullanım istisnası var.",
+   "note": "Controlled use is allowed in registered protected areas and forest parks."
+  },
+  "54": {
+   "bas": "2026-06-01",
+   "bit": "2026-11-30",
+   "not": "Bitiş 30 Kasım'a uzatıldı.",
+   "note": "Extended to 30 November."
+  },
+  "77": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "17": {
+   "bas": "2026-06-01",
+   "bit": "2026-09-30"
+  },
+  "11": {
+   "bas": "2026-06-05",
+   "bit": "2026-10-01",
+   "not": "Yaylalara giriş de yasak.",
+   "note": "Entry to high pastures is also banned."
+  },
+  "39": {
+   "bas": "2026-05-08",
+   "bit": "2026-10-31",
+   "kesin": false,
+   "not": "Kaynaklarda farklı tarihler var (9 Haziran–15 Ekim de geçiyor).",
+   "note": "Sources differ (9 June–15 October is also reported)."
+  },
+  "10": {
+   "bas": "2026-06-15",
+   "bit": "2026-09-30"
+  },
+  "22": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-15"
+  },
+  "59": {
+   "bas": "2026-06-12",
+   "bit": "2026-10-15"
+  },
+  "35": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31",
+   "not": "Efeler Yolu'nun bazı etaplarında rehber eşliğinde geçişe izin var.",
+   "note": "Guided passage is allowed on some stages of the Efeler Way."
+  },
+  "48": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "20": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31",
+   "not": "Resmî piknik alanları dışında piknik ve konaklama yasak.",
+   "note": "Picnics and overnight stays only in official picnic areas."
+  },
+  "45": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31",
+   "not": "112 ormanlık alan; yalnızca ayrılmış piknik alanları açık.",
+   "note": "112 forest areas; only designated picnic areas are open."
+  },
+  "9": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "64": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-01"
+  },
+  "43": {
+   "bas": "2026-05-15",
+   "bit": "2026-10-31"
+  },
+  "3": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-15"
+  },
+  "6": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-15",
+   "not": "Bitiş 30 Eylül'den 15 Ekim'e uzatıldı.",
+   "note": "Extended from 30 September to 15 October."
+  },
+  "18": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "71": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "66": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "26": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-15"
+  },
+  "7": {
+   "bas": "2026-05-01",
+   "bit": "2026-10-31",
+   "not": "Mesire alanlarında 21.00–08.30 arası mangal ve ateş yasak.",
+   "note": "Barbecues and fires banned 21:00–08:30 in picnic areas."
+  },
+  "15": {
+   "bas": "2026-06-01",
+   "bit": "2026-11-01"
+  },
+  "80": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "46": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "33": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31"
+  },
+  "31": {
+   "bas": "2026-05-15",
+   "bit": "2026-09-15"
+  },
+  "32": {
+   "bas": "2026-06-01",
+   "bit": "2026-11-15",
+   "not": "Kasım ortasına kadar sürüyor.",
+   "note": "Runs until mid-November."
+  },
+  "1": {
+   "bas": "2026-06-23",
+   "bit": "2026-10-31"
+  },
+  "57": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31",
+   "kesin": false,
+   "not": "Bitiş tarihi kaynaklarda 31 Ekim ya da 30 Kasım.",
+   "note": "End date reported as 31 October or 30 November."
+  },
+  "69": {
+   "bas": "2026-06-01",
+   "bit": "2026-11-30",
+   "kesin": false,
+   "not": "Bitiş tarihi kaynaklarda 31 Ekim ya da 30 Kasım.",
+   "note": "End date reported as 31 October or 30 November."
+  },
+  "78": {
+   "bas": "2026-06-01",
+   "bit": "2026-10-31",
+   "not": "Resmî mesire yerleri dışında piknik yasak.",
+   "note": "Picnics only in official recreation areas."
+  },
+  "55": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-31",
+   "kesin": false,
+   "not": "Başlangıç \"haziran ortası\" olarak duyuruldu.",
+   "note": "Start announced as \"mid-June\"."
+  },
+  "19": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-31",
+   "kesin": false,
+   "not": "Başlangıç \"haziran ortası\" olarak duyuruldu.",
+   "note": "Start announced as \"mid-June\"."
+  },
+  "5": {
+   "bas": "2026-07-01",
+   "bit": "2026-10-31"
+  },
+  "60": {
+   "bas": "2026-07-01",
+   "bit": "2026-10-30"
+  },
+  "37": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-30",
+   "kesin": false,
+   "not": "Kaynaklarda farklı tarihler var (1 Temmuz–30 Ekim ve 15 Haziran–15 Ekim).",
+   "note": "Sources differ (1 July–30 October and 15 June–15 October)."
+  },
+  "67": {
+   "bas": "2026-07-01",
+   "bit": "2026-09-30"
+  },
+  "74": {
+   "bas": "2026-07-01",
+   "bit": "2026-09-30"
+  },
+  "14": {
+   "bas": "2026-07-01",
+   "bit": "2026-09-30"
+  },
+  "79": {
+   "bas": "2026-06-01",
+   "bit": null,
+   "kesin": false,
+   "not": "Bitiş tarihi duyurulmadı.",
+   "note": "No end date was announced."
+  },
+  "63": {
+   "bas": "2026-06-01",
+   "bit": null,
+   "kesin": false,
+   "not": "Bitiş tarihi duyurulmadı.",
+   "note": "No end date was announced."
+  },
+  "27": {
+   "bas": "2026-06-24",
+   "bit": "2026-09-30"
+  },
+  "12": {
+   "bas": "2026-06-15",
+   "bit": "2026-10-01"
+  },
+  "24": {
+   "bas": "2026-07-15",
+   "bit": "2026-09-15",
+   "not": "Bazı parklar yasak dışında.",
+   "note": "Some parks are exempt."
+  },
+  "42": {
+   "bas": "2026-07-01",
+   "bit": "2026-10-31",
+   "not": "Belirli ormanlık alanlarda; risk sürerse uzatılabilir.",
+   "note": "In listed forest areas; may be extended if the risk continues."
+  },
+  "68": {
+   "bas": "2026-05-22",
+   "bit": "2026-10-31",
+   "kesin": false,
+   "not": "Başlangıç tarihi kesin değil.",
+   "note": "Start date uncertain."
+  },
+  "70": {
+   "bas": null,
+   "bit": null,
+   "kesin": false,
+   "not": "Yasak ilan edildi; tarihler bulunamadı.",
+   "note": "A ban was announced; dates not found."
+  },
+  "38": {
+   "bas": null,
+   "bit": null,
+   "kesin": false,
+   "not": "Yasak ilan edildi; tarihler bulunamadı.",
+   "note": "A ban was announced; dates not found."
+  },
+  "40": {
+   "bas": null,
+   "bit": null,
+   "kesin": false,
+   "not": "Yasak ilan edildi; tarihler bulunamadı.",
+   "note": "A ban was announced; dates not found."
+  },
+  "25": {
+   "bas": null,
+   "bit": null,
+   "kesin": false,
+   "not": "Yasak ilan edildi; tarihler bulunamadı.",
+   "note": "A ban was announced; dates not found."
+  }
+ }
+}
