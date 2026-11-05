@@ -1,0 +1,91 @@
+<title>Kamp Defteri Gizlilik Politikası</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
+<style>
+/* Tek sütun, okunaklı belge; başta kısa özet kartı */
+:root { --bg:#EEF0EA; --surface:#FFFFFF; --fg:#1B2A21; --muted:#56645A; --accent:#2E5A3F; --line:#D5DBD3;
+  --font:'Rubik', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121A15; --surface:#1C2620; --fg:#EDF1EC; --muted:#A6B3AA; --accent:#7FBF96; --line:#2E3A32; color-scheme:dark } }
+:root[data-theme="dark"] { --bg:#121A15; --surface:#1C2620; --fg:#EDF1EC; --muted:#A6B3AA; --accent:#7FBF96; --line:#2E3A32; color-scheme:dark }
+body { background:var(--bg); color:var(--fg); font-family:var(--font); font-size:16px; line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); padding-block:40px 56px; }
+main { max-width:680px; margin:0 auto; display:flex; flex-direction:column; gap:28px; }
+.eyebrow { font-size:13px; font-weight:500; letter-spacing:1.5px; text-transform:uppercase; color:var(--accent); }
+h1 { font-size:34px; line-height:1.15; margin:6px 0 4px; font-weight:700; text-wrap:balance; }
+.date { color:var(--muted); font-size:14px; }
+.summary { background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:20px; }
+.summary p { margin:0; }
+section h2 { font-size:19px; font-weight:500; margin:0 0 6px; }
+section p { margin:0; color:var(--fg); }
+a { color:var(--accent); }
+footer { color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:16px; }
+.lang { display:flex; gap:6px; margin-top:14px; }
+.lang button { font:inherit; font-size:14px; font-weight:500; padding:6px 14px; border-radius:999px; border:1px solid var(--line); background:var(--surface); color:var(--fg); cursor:pointer; }
+.lang button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:var(--bg); }
+[data-l]{ display:none; } body[data-lang="tr"] [data-l="tr"], body[data-lang="en"] [data-l="en"] { display:block; }
+</style>
+<body data-lang="tr">
+<main>
+  <header>
+    <div class="eyebrow">Kamp Defteri</div>
+    <h1 data-l="tr">Gizlilik politikası</h1>
+    <h1 data-l="en">Privacy policy</h1>
+    <div class="date" data-l="tr">Son güncelleme: 2 Kasım 2026 (sürüm 1.9)</div>
+    <div class="date" data-l="en">Last updated: November 2, 2026 (version 1.9)</div>
+    <div class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" data-set="tr" aria-pressed="true">Türkçe</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+    </div>
+  </header>
+  <div class="summary" data-l="tr"><p><strong>Kısaca:</strong> Kamp Defteri hesap istemez, reklam göstermez ve senin hakkında hiçbir veriyi kendi sunucularına göndermez. Girdiğin her şey (kamp planı, liste, defter, fotoğraflar, acil durum kişileri, tıbbi bilgi) yalnızca telefonunda saklanır.</p></div>
+  <div class="summary" data-l="en"><p><strong>In short:</strong> Kamp Defteri requires no account, shows no ads and never sends data about you to its own servers. Everything you enter (camp plan, list, log, photos, emergency contacts, medical info) is stored only on your phone.</p></div>
+  <div data-l="tr">
+    <div style="display:flex;flex-direction:column;gap:28px">
+    <section><h2>Konum</h2><p>Konumun yalnızca sen istediğinde alınır: kamp yerini kaydetmek, güvenlik mesajına konum eklemek, haritada yerini göstermek, iz kaydı ve rota takibi ile SOS ekranında koordinatını göstermek için. İz kaydını ya da rota takibini sen başlattığında, durdurana kadar ekran kilitliyken de konum alınır; bu sırada bildirim çubuğunda sabit bir bildirim görünür. Bu konumlar yalnızca telefonunda saklanır. Bunun dışında arka planda konum alınmaz. Hava durumu için kamp yerinin yaklaşık konumu (yaklaşık 1 km hassasiyetle) ve yüksekliği Norveç Meteoroloji Enstitüsü’ne (MET Norway) gönderilir; yağmur ihtimali için kamp yerinin çevresindeki 4 noktanın yaklaşık koordinatları da sorulur. İnternet varken ayrıca: haritada hava katmanını açarsan görünen bölgedeki birkaç noktanın yaklaşık koordinatları ve av kaydına hava eklenirken kamp yerinin yaklaşık konumu MET Norway’e gönderilir. Harita, rota yüksekliği, dağ tanıyıcı ve patikadan rota çizimi için yalnızca harita parçaları (karo) istenir, koordinatın gönderilmez. Yer arama ve patikadan rota çizimi tamamen telefonda yapılır. Bunlar seninle ilişkilendirilmez ve başka hiçbir yere gönderilmez.</p></section>
+    <section><h2>Mesajlar</h2><p>Güvenlik planı ve SOS mesajlarını uygulama hazırlar; WhatsApp veya Mesajlar uygulamasını açar ve göndermeyi sen yaparsın. İnternet yoksa konum mesajı SMS olarak önerilir. Uygulama arka planda kendiliğinden SMS veya mesaj göndermez. Rehberine erişmez; acil durum kişilerini sen elle yazarsın.</p></section>
+    <section><h2>Bildirimler ve alarmlar</h2><p>Dönüş saati hatırlatmaları (“Güvende misin?”), rota uyarıları ve yürüyüşteki karanlık uyarısı telefonun kendi alarm sistemiyle, internetsiz kurulur. Tam zamanında gelmeleri için Android’in “Alarmlar ve hatırlatıcılar” izni istenir; bu izin yalnızca bildirimi doğru saatte göstermek için kullanılır. Bildirimlerin içeriği telefondan dışarı gönderilmez.</p></section>
+    <section><h2>Pusula, iz kaydı, rotalar ve araç konumu</h2><p>Pusula telefonun kendi sensörünü kullanır. Yürüyüş izleri, rotalar ve arabanın kayıtlı konumu yalnızca telefonunda saklanır; iz kaydı ve rota takibi yalnızca sen başlattığında yapılır ve sen durdurana kadar ekran kapalıyken de sürer. GPX dosyası yalnızca sen seçtiğinde okunur ve yalnızca sen paylaştığında dışarı verilir. Pil seviyesi ve sıcaklığı; pil modu, düşük pil, soğuk ve sıcak uyarıları ve acil durum ekranları için yalnızca telefonda okunur. Basınç (barometre), ışık, eğim ve manyetik alan sensörleri de yalnızca telefonda okunur; basınç ölçümleri son 24 saat için, yükseklik ölçerin ayarı ise sen silene kadar telefonda saklanır. Fener yalnızca sen açtığında ya da Mors ile mesaj gönderirken yanar.</p></section>
+    <section><h2>Tıbbi bilgi</h2><p>Tıbbi bilgi kartı yalnızca telefonunda saklanır ve sadece sen açtığında görünür.</p></section>
+    <section><h2>Fotoğraflar ve kamera</h2><p>Deftere eklediğin fotoğraflar uygulamanın kendi klasörüne kopyalanır. Kamera ve galeri yalnızca sen fotoğraf eklerken kullanılır. Dağ tanıyıcı ve eğim ölçer kamerayı yalnızca ekranda canlı görüntü göstermek için açar; görüntü kaydedilmez ve hiçbir yere gönderilmez.</p></section>
+    <section><h2>Grup paylaşımı</h2><p>Planı gruba gönderdiğinde mesajı (yer, tarih, konum, liste ve grup adları) senin seçtiğin uygulamayla sen gönderirsin. Kamp Defteri’nin bir sunucusu yoktur; paylaşılan plan yalnızca mesajın içindeki kodla taşınır.</p></section>
+    <section><h2>Üçüncü taraf hizmetler</h2><p>Harita, internetsiz il haritaları, internet varken görüntülenen harita parçaları, topluluk yerleri (kamp alanları, su kaynakları), işaretli yürüyüş yolları ve il il ormana giriş yasakları listesi Kamp Defteri’nin <a href="https://github.com/MuzafferAbdullahOrtakaya/kamp-defteri-haritalar">GitHub sayfasından</a> indirilir; yasak listesi internet varken birkaç günde bir yenilenir. Bu veriler <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcılarınındır (ODbL). Türkiye genel haritası uygulamanın içinde gelir; harita Türkiye dışını göstermez ve bunun için başka bir sunucuya bağlanılmaz. Hava durumu ve harita hava katmanı <a href="https://api.met.no/doc/License">MET Norway</a>’den (CC BY 4.0) alınır. Hayvan rehberindeki fotoğraf ve sesler <a href="https://commons.wikimedia.org">Wikimedia Commons</a> katkıcılarına aittir ve uygulamanın içinde gelir. Türkiye’nin hayvanları kataloğu <a href="https://www.gbif.org">GBIF</a> kayıtlarından, <a href="https://www.wikidata.org">Vikiveri</a> ve Vikipedi’den (CC BY-SA) derlendi; fotoğrafları Wikimedia Commons ve <a href="https://www.inaturalist.org">iNaturalist</a> katkıcılarına aittir, sahibi ve lisansı her türün sayfasında yazar. İl sınırları OpenStreetMap’ten alındı. Katalog, fotoğrafları ve il sınırları uygulamanın içinde gelir; bunlar için internet bağlantısı kurulmaz. Bu hizmetler, isteği yapan cihazın IP adresini standart sunucu kayıtlarında görebilir. Başka analiz, takip veya reklam aracı kullanılmaz.</p></section>
+    <section><h2>Abonelik ve ödemeler</h2><p>Kamp Defteri Pro aboneliğinin ödemesi tamamen Google Play üzerinden yapılır. Kart ve ödeme bilgilerini Kamp Defteri görmez ve saklamaz; uygulama yalnızca Google Play’den aboneliğin etkin olup olmadığını öğrenir. Aboneliği Google Play › Ödemeler ve abonelikler bölümünden istediğin zaman iptal edebilirsin.</p></section>
+    <section><h2>Verilerini silmek</h2><p>Uygulamada Ayarlar › Tüm verilerimi sil ile her şeyi silebilirsin. Uygulamayı kaldırmak da tüm verileri siler. Yedek dosyası oluşturursan o dosya senin kontrolündedir.</p></section>
+    <section><h2>Çocuklar</h2><p>Uygulama 13 yaş altı çocuklara yönelik değildir ve onlardan bilerek veri toplamaz.</p></section>
+    <section><h2>İletişim</h2><p>Sorular için: <a href="mailto:kampdefteri.destek@gmail.com">kampdefteri.destek@gmail.com</a></p></section>
+    </div>
+  </div>
+  <div data-l="en">
+    <div style="display:flex;flex-direction:column;gap:28px">
+    <section><h2>Location</h2><p>Your location is used only when you ask for it: to save a campsite, add your location to a safety message, show where you are on the map, record a track or follow a route, and show your coordinates on the SOS screen. When you start track recording or route following, location is also read while the screen is locked, until you stop it; a persistent notification is shown during this time. These locations are stored only on your phone. Location is not collected in the background otherwise. For the weather forecast, the approximate location of your campsite (to about 1 km) and its altitude are sent to the Norwegian Meteorological Institute (MET Norway); for the chance of rain, the approximate coordinates of 4 points around your campsite are also requested. When you are online: if you turn on the weather layer on the map, approximate coordinates of a few points in the visible area are sent to MET Norway, and when weather is added to a catch log, the approximate location of the campsite is sent to MET Norway. For the map, route elevation, the peak finder and drawing routes along trails, only map tiles are requested; your coordinates are not sent. Place search and trail routing run entirely on your phone. None of this is linked to you or sent anywhere else.</p></section>
+    <section><h2>Messages</h2><p>The app prepares safety-plan and SOS messages; it opens WhatsApp or Messages and you send them yourself. Without internet, the location message is offered as an SMS. The app never sends SMS or messages on its own in the background. It does not access your contacts; you type your emergency contacts in yourself.</p></section>
+    <section><h2>Notifications and alarms</h2><p>Return-time reminders (“Are you safe?”), route alerts and the darkness warning on hikes are set offline using the phone’s own alarm system. So that they arrive on time, Android’s “Alarms &amp; reminders” permission is requested; it is used only to show the notification at the right time. Notification contents never leave the phone.</p></section>
+    <section><h2>Compass, tracks, routes and car location</h2><p>The compass uses your phone's own sensor. Walking tracks, routes and your car's saved location are stored only on your phone; track recording and route following happen only when you start them, and continue with the screen off until you stop them. A GPX file is read only when you pick it and shared only when you share it. Battery level and temperature are read only on the phone, for battery mode, the low-battery, cold and heat warnings and the emergency screens. The pressure (barometer), light, tilt and magnetic field sensors are also read only on the phone; pressure readings are kept on the phone for the last 24 hours, and the altimeter calibration until you delete it. The flashlight only turns on when you switch it on or send a Morse message.</p></section>
+    <section><h2>Medical information</h2><p>Your medical info card is stored only on your phone and is shown only when you open it.</p></section>
+    <section><h2>Photos and camera</h2><p>Photos you add to your log are copied into the app's own folder. The camera and gallery are used only when you add a photo. The peak finder and the inclinometer open the camera only to show a live view on screen; nothing is recorded or sent anywhere.</p></section>
+    <section><h2>Group sharing</h2><p>When you send a plan to your group, you send the message (place, dates, location, list and group names) yourself, with the app you choose. Kamp Defteri has no server; a shared plan travels only as the code inside the message.</p></section>
+    <section><h2>Third-party services</h2><p>The map, offline province maps, map tiles shown while online, community places (campsites, water sources), marked hiking trails and the province-by-province forest entry ban list are downloaded from Kamp Defteri's <a href="https://github.com/MuzafferAbdullahOrtakaya/kamp-defteri-haritalar">GitHub page</a>; the ban list is refreshed every few days while you're online. This data belongs to the <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL). The overview map of Turkey is built into the app; the map does not show areas outside Turkey and connects to no other server for them. Weather and the map weather layer come from <a href="https://api.met.no/doc/License">MET Norway</a> (CC BY 4.0). Animal photos and sounds in the animal guide belong to <a href="https://commons.wikimedia.org">Wikimedia Commons</a> contributors and are built into the app. The Türkiye's animals catalogue is compiled from <a href="https://www.gbif.org">GBIF</a> records, <a href="https://www.wikidata.org">Wikidata</a> and Wikipedia (CC BY-SA); its photos belong to Wikimedia Commons and <a href="https://www.inaturalist.org">iNaturalist</a> contributors, with the author and licence shown on each species page. Province boundaries come from OpenStreetMap. The catalogue, its photos and the province boundaries are built into the app; no connection is made for them. These services may see the requesting device's IP address in standard server logs. No other analytics, tracking or advertising tools are used.</p></section>
+    <section><h2>Subscription and payments</h2><p>Payment for the Kamp Defteri Pro subscription is handled entirely by Google Play. Kamp Defteri never sees or stores your card or payment details; the app only learns from Google Play whether your subscription is active. You can cancel at any time in Google Play › Payments & subscriptions.</p></section>
+    <section><h2>Deleting your data</h2><p>In the app, Settings › Delete all my data removes everything. Uninstalling the app also deletes all data. If you create a backup file, that file is under your control.</p></section>
+    <section><h2>Children</h2><p>The app is not directed at children under 13 and does not knowingly collect data from them.</p></section>
+    <section><h2>Contact</h2><p>Questions: <a href="mailto:kampdefteri.destek@gmail.com">kampdefteri.destek@gmail.com</a></p></section>
+    </div>
+  </div>
+  <footer><span data-l="tr">Bu politika değişirse güncel hâli bu sayfada yayınlanır.</span><span data-l="en">If this policy changes, the current version will be published on this page.</span></footer>
+</main>
+<script>
+(function () {
+  var b = document.body;
+  function set(l) {
+    b.setAttribute('data-lang', l);
+    document.documentElement.lang = l;
+    document.querySelectorAll('.lang button').forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.set === l ? 'true' : 'false'); });
+    try { localStorage.setItem('kd-lang', l); } catch (e) {}
+  }
+  document.querySelectorAll('.lang button').forEach(function (x) { x.addEventListener('click', function () { set(x.dataset.set); }); });
+  var saved = null;
+  try { saved = localStorage.getItem('kd-lang'); } catch (e) {}
+  var q = (location.hash || '').replace('#', '');
+  set(q === 'en' || q === 'tr' ? q : (saved || ((navigator.language || 'tr').slice(0, 2) === 'tr' ? 'tr' : 'en')));
+})();
+</script>
