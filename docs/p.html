@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kamp Defteri · Paylaşılan plan</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --bg:#f3f0e6; --card:#ffffff; --ink:#1b2a21; --soft:#5c6b61; --green:#2e5a3f; --line:#e2dccd; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141a16; --card:#1f2721; --ink:#e8efe9; --soft:#a9b8ad; --green:#7fbf95; --line:#2d372f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:24px 16px 48px; }
+  .brand { display:flex; align-items:center; gap:10px; color:var(--green); font-weight:700; font-size:15px; margin-bottom:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; margin-bottom:14px; }
+  h1 { font-size:24px; margin:0 0 4px; line-height:1.2; }
+  .soft { color:var(--soft); font-size:14px; }
+  .btn { display:block; text-align:center; text-decoration:none; padding:14px; border-radius:14px; font-weight:700; margin-top:10px; }
+  .primary { background:var(--green); color:#fff; }
+  .secondary { border:1.5px solid var(--green); color:var(--green); }
+  ul { padding-left:20px; margin:8px 0 0; }
+  li { margin:2px 0; }
+  .who { font-weight:700; margin-top:10px; }
+  .err { color:#b0402f; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">⛺ Kamp Defteri</div>
+  <div id="out" class="card"><p class="soft" id="loading">Plan açılıyor…</p></div>
+  <div id="actions"></div>
+  <p class="soft" id="privacy"></p>
+</main>
+<script>
+(function () {
+  var en = (navigator.language || 'tr').toLowerCase().indexOf('tr') !== 0;
+  var T = en ? {
+    loading: 'Opening…', open: 'Open in Kamp Defteri', get: 'Get Kamp Defteri on Google Play', map: 'Show on map',
+    who: 'Who brings what', bad: 'This link is incomplete. Ask your friend to send it again.', people: 'people',
+    mark: 'Shared place', privacy: 'The plan is inside the link itself; it is never sent to or stored on a server.',
+    noApp: 'Kamp Defteri works only on Android phones.', title: 'Kamp Defteri · Shared plan'
+  } : {
+    loading: 'Plan açılıyor…', open: 'Kamp Defteri’nde aç', get: 'Kamp Defteri’ni Google Play’den indir', map: 'Haritada göster',
+    who: 'Kim ne getiriyor', bad: 'Bu bağlantı eksik. Arkadaşından tekrar göndermesini iste.', people: 'kişi',
+    mark: 'Paylaşılan yer', privacy: 'Plan bağlantının kendi içindedir; hiçbir sunucuya gönderilmez, saklanmaz.',
+    noApp: 'Kamp Defteri yalnızca Android telefonlarda çalışır.', title: 'Kamp Defteri · Paylaşılan plan'
+  };
+  document.title = T.title;
+  document.documentElement.lang = en ? 'en' : 'tr';
+  var out = document.getElementById('out');
+  var act = document.getElementById('actions');
+  document.getElementById('privacy').textContent = T.privacy;
+  var play = 'https://play.google.com/store/apps/details?id=com.kampdefteri.app';
+  var hash = decodeURIComponent(location.hash.slice(1));
+  var m = /(KD1|KDY):([A-Za-z0-9_\-]+)/.exec(hash);
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function fail() { out.innerHTML = '<p class="err">' + esc(T.bad) + '</p>'; }
+  function fmt(d) { try { return new Date(d).toLocaleDateString(en ? 'en-GB' : 'tr-TR', { day: 'numeric', month: 'long' }); } catch (e) { return d; } }
+  function buttons(lat, lng) {
+    var android = /android/i.test(navigator.userAgent);
+    var code = m[1] + ':' + m[2];
+    var h = '';
+    if (android) {
+      var intent = 'intent://ac/' + code + '#Intent;scheme=kampdefteri;package=com.kampdefteri.app;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
+      h += '<a class="btn primary" href="' + intent + '">' + esc(T.open) + '</a>';
+      h += '<a class="btn secondary" href="' + play + '">' + esc(T.get) + '</a>';
+    } else {
+      h += '<p class="soft">' + esc(T.noApp) + '</p>';
+    }
+    if (lat != null) h += '<a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng + '">' + esc(T.map) + '</a>';
+    act.innerHTML = h;
+  }
+  if (!m || !('DecompressionStream' in window)) { fail(); return; }
+  var b64 = m[2].replace(/-/g, '+').replace(/_/g, '/');
+  while (b64.length % 4) b64 += '=';
+  var bytes;
+  try { bytes = Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); }); } catch (e) { fail(); return; }
+  var ds = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+  new Response(ds).text().then(function (txt) {
+    var j = JSON.parse(txt);
+    if (m[1] === 'KDY') {
+      out.innerHTML = '<p class="soft">' + esc(T.mark) + '</p><h1>' + esc(j.n) + '</h1>' +
+        '<p class="soft">' + j.a.toFixed(5) + ', ' + j.o.toFixed(5) + (j.e != null ? ' · ' + j.e + ' m' : '') + '</p>' +
+        (j.t ? '<p>' + esc(j.t) + '</p>' : '');
+      buttons(j.a, j.o);
+      return;
+    }
+    var h = '<h1>' + esc(j.n) + '</h1><p class="soft">' + fmt(j.s) + ' – ' + fmt(j.e) + ' · ' + (j.p || 1) + ' ' + esc(T.people) + '</p>';
+    var by = {};
+    (j.i || []).forEach(function (it) { if (it[2]) { (by[it[2]] = by[it[2]] || []).push(it[0]); } });
+    var names = Object.keys(by);
+    if (names.length) {
+      h += '<p class="who">' + esc(T.who) + '</p>';
+      names.forEach(function (n) { h += '<p style="margin:6px 0 0"><b>' + esc(n) + ':</b> ' + by[n].map(esc).join(', ') + '</p>'; });
+    }
+    out.innerHTML = h;
+    buttons(j.a != null ? j.a : null, j.o);
+  }).catch(fail);
+})();
+</script>
+</body>
+</html>
